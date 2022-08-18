@@ -1,0 +1,106 @@
+.login-background {
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+
+    position: relative;
+
+
+    .login-container {
+        position: absolute;
+        width: 400px;
+        height: 450px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background-color: white;
+        border-radius: 10px;
+
+        .login-content {
+            padding: 10px;
+
+            .text-login {
+                font-size: 30px;
+                text-align: center;
+                margin-top: 15px;
+            }
+
+            .login-input {
+                margin: 7px 0;
+                position: relative;
+            }
+
+            .eye {
+                position: absolute;
+                right: 5%;
+                top: 50%;
+                font-size: 20px;
+                cursor: pointer;
+            }
+
+            .btn-login {
+                margin-top: 15px;
+                margin-bottom: 15px;
+                background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+                width: 100%;
+                margin: 10px 0;
+                height: 40px;
+                border-radius: 15px;
+                border: none;
+                outline: none;
+                color: white;
+                font-size: 16px;
+            }
+
+            .forgot-password {
+                font-size: 14px;
+            }
+
+            .social-login {
+                display: flex;
+                justify-content: center;
+                font-size: 30px;
+
+
+                i {
+                    display: flex;
+                    margin: 15px 10px;
+                    border-radius: 50%;
+                    // background-color: red;
+                    align-items: center;
+                    justify-content: center;
+                    width: 50px;
+                    height: 50px;
+
+
+                }
+
+                i:hover {
+                    cursor: pointer;
+                }
+
+                .facebook {
+                    background-color: rgb(59,
+                            89,
+                            152);
+                    color: white
+                }
+
+                .google {
+                    background-color: rgb(220,
+                            78,
+                            65);
+                    color: white
+                }
+
+                .twitter {
+                    background-color: rgb(85,
+                            172,
+                            238);
+                    color: white
+                }
+            }
+        }
+    }
+}
